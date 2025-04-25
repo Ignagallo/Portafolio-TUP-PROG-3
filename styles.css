@@ -14,6 +14,7 @@ Acento alternativo	    #f43f5e	    Rosa fuerte (para destacar algo)
     margin: 5px;
     padding: 2px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     background-color: #0f172a;    
@@ -113,13 +114,14 @@ hr {
 #portada, #sobre-mi, #trayectoria-academica, #proyectos, #habilidades, #contacto  {
     height: 100vh;
 }
+/* --------------------------- BOTON VOLVER --------------------------- */
 .volver {
-    width: 100px;    
+    width: 80px;    
     height: auto;
     display: flex;
     position: relative;
-    top: 315px;
-    left: 90%;
+    top: 345px;
+    left: 92%;
 }
 .volver a{
     border: none;
