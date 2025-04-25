@@ -32,6 +32,8 @@ body {
     align-items: center;
 }
 
+
+/* --------------------------- TITULOS DEL BANNER --------------------------- */
 .titulos {
     font-family: 'Impact', sans-serif;
     font-style: italic;
@@ -47,6 +49,8 @@ span:hover {
     transition: .5s;
 }
 
+
+/* --------------------------- IMAGEN DEL BANNER --------------------------- */
 .img {
     width: 300px;
     height: auto;
@@ -66,7 +70,9 @@ span:hover {
     transition: .5s;
 }
 
-.container {
+
+/* --------------------------- MENU --------------------------- */
+.container-menu {
     position: relative;
     top: 50px;
     background-color: #1e293b;
@@ -74,21 +80,23 @@ span:hover {
     border-radius: 5px;
 }
 
-.container .menu ul {
+.container-menu .menu ul {
     display: flex;
     list-style: none;
     margin: 0;
     color: #f1f5f9;
 }
 
-.container .menu ul li{
+.container-menu .menu ul li{
     margin: -1px;
 }
-.container .menu ul li a{
+.container-menu .menu ul li a{
     padding: 5px;
     margin: 5px;
 }
 
+
+/* --------------------------- LINKS DE ANCLAJE --------------------------- */
 a {
     color: #f1f5f9;
     text-decoration: none;
@@ -104,6 +112,8 @@ a:hover {
     border: solid 1px #0ea5e9;
     border-radius: 5px;
 }
+
+/* --------------------------- LINEA DE SEPARACION --------------------------- */
 hr {
     position: relative;
     top: 55px;
@@ -111,17 +121,28 @@ hr {
     border-radius: 5px;
     border: solid 1px #f43f5e;
 }
-#portada, #sobre-mi, #trayectoria-academica, #proyectos, #habilidades, #contacto  {
+
+/* --------------------------- SECCIONES DEL PORTAFOLIO --------------------------- */
+#portada {
     height: 100vh;
 }
+#sobre-mi, #trayectoria-academica, #proyectos, #habilidades, #contacto  {
+    height: 100vh;
+    background-color: #1e293b;
+    border-radius: 10px;
+    margin: 10px;
+    color: #f1f5f9;
+}
+
 /* --------------------------- BOTON VOLVER --------------------------- */
 .volver {
     width: 80px;    
     height: auto;
     display: flex;
-    position: relative;
-    top: 345px;
-    left: 92%;
+    position: fixed;
+    top: 355px;
+    right: -5px;
+    z-index: 1000;
 }
 .volver a{
     border: none;
@@ -131,7 +152,56 @@ hr {
     width: 100%;
     height: auto;
 }
-.volver a img:hover{
-    transition: .2s;
-    transform: translate(0px, -5px);
+
+
+/* --------------------------- SECCION SOBRE MI --------------------------- */
+#sobre-mi {
+    background-color: #1e293b;
+    border-radius: 10px;
+    margin: 10px;
+    color: #f1f5f9;
 }
+#sobre-mi h3 {
+    font-family: 'Tahoma', sans-serif;
+    color: #f1f5f9;
+}
+#sobre-mi p {
+    font-family: 'Tahoma', sans-serif;
+    color: #94a3b8;
+    letter-spacing: -.5px;
+}
+#sobre-mi p span {
+    font-family: 'IMPACT', sans-serif;
+}
+.hr-sobre-mi {
+    top: 0px
+}
+
+
+
+/* --------------------------- SECCION ACADEMICA --------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px;
+}
+table th {
+    background-color: #1e293b;
+    color: #f1f5f9;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Tahoma', sans-serif;
+}
+table td {
+    text-align: center;
+}
+table td img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* --------------------------- BOTON VOLVER --------------------------- */
+
+
+/* --------------------------- BOTON VOLVER --------------------------- */
