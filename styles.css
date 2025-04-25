@@ -229,4 +229,17 @@ table, th, td {
     margin: 5px 30px;
 }
 
-/* --------------------------- BOTON VOLVER --------------------------- */
+/* --------------------------- Habilidades --------------------------- */
+.container-hab {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-hab .hab-blandas, .container-hab .hab-duras {
+    border: solid 3px #f43f5e;
+    padding: 15px;
+}
+
+.hab-blandas hr, .hab-duras hr {
+    top: -5px;
+}
