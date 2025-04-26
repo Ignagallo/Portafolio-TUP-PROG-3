@@ -261,3 +261,10 @@ table, th, td {
     height: auto;
     border-radius: 15px;
 }
+.Gmail, .Instagram, .Linkedin, .github {
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
