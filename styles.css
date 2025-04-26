@@ -52,11 +52,11 @@ span:hover {
 
 /* --------------------------- IMAGEN DEL BANNER --------------------------- */
 .img {
-    width: 300px;
+    width: 400px;
     height: auto;
     position: absolute;
     top: -15px;
-    right: -50px;
+    right: 50px;
     z-index: 1;
 }
 .img img {
@@ -136,11 +136,11 @@ hr {
 
 /* --------------------------- BOTON VOLVER --------------------------- */
 .volver {
-    width: 80px;    
+    width: 100px;    
     height: auto;
     display: flex;
     position: fixed;
-    top: 355px;
+    top: 85vh;
     right: -5px;
     z-index: 1000;
 }
