@@ -243,3 +243,21 @@ table, th, td {
 .hab-blandas hr, .hab-duras hr {
     top: -5px;
 }
+/* --------------------------- Imagenes --------------------------- */
+.manejo {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+.morrodomacaco {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
