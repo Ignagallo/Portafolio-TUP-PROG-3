@@ -245,7 +245,7 @@ table, th, td {
 }
 /* --------------------------- Imagenes --------------------------- */
 .manejo {
-    width: 250px;
+    width: 350px;
     height: auto;
     border-radius: 10px;
     display: flex;
